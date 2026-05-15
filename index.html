@@ -150,9 +150,10 @@
         <span class="section-number" data-ring="5">05</span>
         <h2>Gebouwd met AI</h2>
         <p class="section-desc">
-          Dit dashboard is gebouwd voor de HU Datavisualisatie Challenge 2026 met
-          <strong>GitHub Copilot</strong> als AI-codeerassistent — van een leeg werkgebied tot
-          een gepubliceerd dashboard in een fractie van de gebruikelijke tijd. Zo verliep het.
+          Dit dashboard is van begin tot eind gebouwd met AI — <strong>Claude Sonnet 4.6</strong>
+          voor planning &amp; code, <strong>GitHub Copilot</strong> als codeerassistent.
+          Mijn eigen tijd van start tot gepubliceerd dashboard? <strong>Ongeveer 1,5 uur.</strong>
+          Hieronder zie je precies hoe dat ging.
         </p>
       </header>
 
@@ -161,72 +162,78 @@
         <div class="ai-step animate-on-scroll">
           <div class="ai-step-icon">🗂️</div>
           <div class="ai-step-content">
-            <h3>Fase 1 &mdash; Data-verkenning</h3>
+            <h3>Fase 1 &mdash; Voorbereiding</h3>
             <p>
-              Copilot genereerde een Python EDA-script om de datasetstructuur te begrijpen:
-              rijtellingen, null-verdelingen, medailleoverzichten en jaarbereiken — in minuten
-              in plaats van het gebruikelijke uur aan handmatige verkenning.
+              Alle benodigde informatie bij elkaar brengen: de data in een aparte map zetten,
+              de tekst uit de PowerPoint via Copilot Chat omzetten naar een tekstbestand,
+              de e-mail via Copilot Outlook opslaan, en alles in één werkmap bundelen.
+              Ten slotte het einddoel in eigen woorden opschrijven in <em>goal.txt</em> —
+              zodat de AI precies weet wat ik wil.
             </p>
-            <div class="ai-prompt">
-              <strong>Prompt used:</strong> "Write a Python pandas script to explore an Olympic athletes CSV
-              with columns: ID, Name, Sex, Age, Height, Weight, Team, NOC, Games, Year, Season, City,
-              Sport, Event, Medal. Show null counts, year range, unique sports, and medal breakdown by gender."
-            </div>
             <span class="ai-result">⏱ ~10 minuten</span>
           </div>
         </div>
 
         <div class="ai-step animate-on-scroll">
-          <div class="ai-step-icon">📊</div>
+          <div class="ai-step-icon">🧠</div>
           <div class="ai-step-content">
-            <h3>Fase 2 &mdash; Data-voorbereiding</h3>
+            <h3>Fase 2 &mdash; Plan maken met AI</h3>
             <p>
-              Copilot schreef het volledige voorverwerkingsscript dat 271.116 rijen CSV-data omzet naar
-              vier compacte JSON-bestanden — deelnametrends vrouwen, medailles per land, sporten voor vrouwen
-              en atletiekstatistieken — klaar voor de browser.
+              Met alle input in één map vroeg ik Claude Sonnet 4.6 (High Reasoning) om een
+              concreet plan van aanpak. Daarna checkte ik de randvoorwaarden
+              (GitHub-account, Python, Git) en las het plan door om het te tweaken
+              waar nodig. Het plan werd opgeslagen als <em>plan.md</em>.
             </p>
             <div class="ai-prompt">
-              <strong>Prompt used:</strong> "Write a Python script that reads athlete_events.csv and
-              country_definitions.csv, and outputs 4 JSON files: (1) % female athletes per year for
-              Summer Olympics, (2) total female medals by country, (3) first year women competed per
-              sport with % female in latest Games, (4) average age and height by gender per year."
+              <strong>Gebruikte prompt:</strong> "Can you take a look at the goal.txt and make a plan?"
             </div>
-            <span class="ai-result">⏱ ~20 minuten (inclusief uitvoeren en verifiëren van output)</span>
+            <span class="ai-result">⏱ ~25 minuten</span>
           </div>
         </div>
 
         <div class="ai-step animate-on-scroll">
-          <div class="ai-step-icon">🎨</div>
+          <div class="ai-step-icon">☕</div>
           <div class="ai-step-content">
-            <h3>Fase 3 &mdash; Dashboard Ontwerp &amp; Bouw</h3>
+            <h3>Fase 3 &mdash; Dashboard bouwen</h3>
             <p>
-              Ik beschreef het verhaal en de lay-out die ik voor ogen had — een scrollend narratief over
-              gendergelijkheid in de Olympische Spelen — en Copilot bouwde de volledige HTML-structuur,
-              het CSS-thema en alle vijf Plotly.js-grafiekconfiguraties in één sessie.
+              Eén prompt ingevoerd, daarna ben ik gaan lunchen. Serieus.
+              De AI bouwde het volledige dashboard — HTML, CSS, JavaScript, grafieken,
+              data-preprocessing — terwijl ik weg was. Toen ik terugkwam stond het er.
             </p>
             <div class="ai-prompt">
-              <strong>Prompt used:</strong> "Create a scrollytelling HTML dashboard with a dark navy
-              Olympics theme. Use Plotly.js loaded via CDN. Sections: (1) hero with key stats,
-              (2) line chart of % female athletes per year with milestone annotations,
-              (3) bubble chart of sports opening to women, (4) choropleth map of female medals by country,
-              (5) athlete age and height comparison lines for men vs women."
+              <strong>Gebruikte prompt:</strong> "Start implementation"
             </div>
-            <span class="ai-result">⏱ ~3 uur voor de volledige dashboardbouw</span>
+            <span class="ai-result">⏱ ~0 minuten (mijn eigen tijd)</span>
           </div>
         </div>
 
         <div class="ai-step animate-on-scroll">
-          <div class="ai-step-icon">⚡</div>
+          <div class="ai-step-icon">✨</div>
+          <div class="ai-step-content">
+            <h3>Fase 4 &mdash; Verfijnen</h3>
+            <p>
+              Het resultaat doorlopen en iteratief aanpassen via gerichte prompts:
+              alles in het Nederlands, een nieuw kleurenschema, hosting via GitHub Pages,
+              de Olympische ringen in de bovenbalk, en dit overzicht van stappen.
+              Elke aanpassing kostte een paar woorden en een paar seconden wachten.
+            </p>
+            <span class="ai-result">⏱ ~60 minuten</span>
+          </div>
+        </div>
+
+        <div class="ai-step animate-on-scroll">
+          <div class="ai-step-icon">🏅</div>
           <div class="ai-step-content">
             <h3>Het Resultaat</h3>
             <p>
-              Totale tijd van leeg werkgebied tot gepubliceerd dashboard: <strong>ongeveer 6 uur</strong>.
-              Zonder AI-hulp zou hetzelfde resultaat waarschijnlijk 2–3 volledige werkdagen kosten.
+              Totale eigen tijd van leeg werkgebied tot gepubliceerd dashboard:
+              <strong>circa 1,5 uur</strong>.
+              Zonder AI-hulp zou hetzelfde resultaat mij 2–3 volledige werkdagen hebben gekost.
             </p>
             <p>
-              De AI genereerde niet alleen standaardcode — het nam ontwerpbeslissingen, behandelde randgevallen
-              in dataverwerking, schreef productieklare grafiekconfiguraties en hield de code overal schoon
-              en consistent. De commitgeschiedenis op GitHub vertelt het volledige snelheidsverhaal.
+              Geen technische achtergrond nodig. Geen uren debuggen.
+              Gewoon helder opschrijven wat je wilt — en de AI doet de rest.
+              Misschien is dit jouw teken om het ook eens te proberen.
             </p>
           </div>
         </div>
