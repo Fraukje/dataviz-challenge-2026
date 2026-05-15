@@ -1,0 +1,17 @@
+Stappen door de mens uitgevoerd (niet AI):
+- alle informatie (data & tekst) organiseren: data samen in een data map, Powerpoint tekst in een txt file [Copilot Chat], Email tekst in txt file. Alles samen in 1 map [Copilot Outlook] - 5 minuten
+- schrijf einddoel in tekst op (goal.txt) - 5 minuten
+- brainstorm met AI hoe dit aan te pakken, m.b.v. alle bovenstaande input [Claude Sonnet 4.6 - High reasoning] - 15 minuten
+"Can you take a look at the goal.txt and make a plan?"
+- randvoorwaardes checken: GitHub account, Python geinstalleerd, git geinstalleerd. 
+- plan van aanpak opslaan en doorlezen/tweaken, opgeslagen in plan.md - 10 minuten
+- plan laten uitvoeren > dashboard bouwen [Claude Sonnet 4.6] "Start implementation" - 0 minuten (lunchen) Implementatietijd van AI was ca. 30 minuten. 
+- resultaat bekijken en iteratief aanpassen [Claude Sonnet 4.6] - 60 minuten
+   - alles in Nederlands i.p.v. Engels
+   - ander kleurenschema
+   > plan-iteration1.md
+   - hosting dashboard op github pages
+   > plan-iteration2.md
+   - toevoegen Olympische Spelen (5 ringen) afbeelding in bovenbalk
+   > plan-iteration3.md
+   - toevoegen dit document van door de gebruiker uitgevoerde stappen en bestede tijd aan dashboard
