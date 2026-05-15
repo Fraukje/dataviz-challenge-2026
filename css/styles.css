@@ -125,6 +125,11 @@ body {
   position: relative;
   z-index: 1;
   max-width: 800px;
+  background: rgba(245, 247, 250, 0.5);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 16px;
+  padding: 48px 52px;
 }
 
 .hero-eyebrow {
