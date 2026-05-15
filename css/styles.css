@@ -64,7 +64,12 @@ body {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--blue-accent);
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
+
+.nav-rings { flex-shrink: 0; }
 
 .nav-links {
   display: flex;
@@ -103,6 +108,17 @@ body {
     radial-gradient(ellipse at 20% 50%, rgba(0, 129, 200, 0.07) 0%, transparent 60%),
     radial-gradient(ellipse at 80% 50%, rgba(212, 165, 0, 0.06) 0%, transparent 60%),
     linear-gradient(180deg, #F5F7FA 0%, #EAF0F8 100%);
+}
+
+.hero-rings-watermark {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70%;
+  max-width: 700px;
+  opacity: 0.08;
+  pointer-events: none;
 }
 
 .hero-content {
@@ -210,6 +226,13 @@ body {
 
 .alt-bg { background: var(--bg-alt); }
 
+/* ── Rings divider ───────────────────────────────────────────────────────── */
+.rings-divider {
+  height: 4px;
+  background: linear-gradient(90deg,
+    #0085C7 20%, #F4C300 20% 40%, #1A2C4E 40% 60%, #009F6B 60% 80%, #DF0024 80%);
+}
+
 .section-inner {
   max-width: var(--max-w);
   margin: 0 auto;
@@ -219,13 +242,23 @@ body {
 
 .section-number {
   font-family: var(--font-head);
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   font-weight: 700;
-  letter-spacing: 0.35em;
-  text-transform: uppercase;
-  color: var(--blue-accent);
-  opacity: 0.65;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin-bottom: 16px;
+  letter-spacing: 0.05em;
 }
+
+.section-number[data-ring="1"] { background: #0085C7; color: #fff; }
+.section-number[data-ring="2"] { background: #F4C300; color: #1A2C4E; }
+.section-number[data-ring="3"] { background: #1A2C4E; color: #fff; }
+.section-number[data-ring="4"] { background: #009F6B; color: #fff; }
+.section-number[data-ring="5"] { background: #DF0024; color: #fff; }
 
 .section-header h2 {
   font-family: var(--font-head);
