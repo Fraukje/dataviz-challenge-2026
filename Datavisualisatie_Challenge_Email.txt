@@ -1,0 +1,27 @@
+Het is eindelijk zover, de nieuwe Datavisualisatie Challenge gaat van start!
+
+Ready, Set, Go ……bundel je verbeeldingskracht en analytisch vermogen om een interactieve dashboard of visueel beeld samen te stellen, waarmee gebruikers de geschiedenis van de Olympische spelen van Athene (1896) tot Rio (2016) kunnen verkennen.
+
+Dataset
+
+De dataset is te vinden op teams site Power BI Community - Channel Power BI Datavisualisatie Challenge
+
+De data wordt zo opgeleverd dat modelleren niet nodig is.
+
+Doel
+
+Doel van de challenge is het oefenen en verbeteren van je skills, het leren van anderen en wellicht het inspireren van anderen.
+
+Het is bedoeld voor iedereen die het leuk vind om bezig te zijn met het bouwen van dashboards en die zich verder wil ontwikkelen. Meedoen is belangrijker dan winnen. Zie het als een mooie kans om feedback te krijgen! Het hoeft geen fancy rapport te zijn of volledig af te zijn om mee te kunnen doen.
+
+Aanmelden
+
+Als je mee wilt doen kun je je aanmelden door je te registreren als deelnemer in de Excellijst. Deze is ook te vinden onder de gedeelde documenten op teams site Power BI Community - Channel Power BI Datavisualisatie Challenge
+
+Bijlage
+
+Powerpoint met alle ins en outs.
+
+Met vriendelijke groet,
+
+Herjo

@@ -1,0 +1,145 @@
+DATAVISUALISATIE CHALLENGE – OLYMPICS
+
+--------------------------------------------------
+INTRODUCTIE
+--------------------------------------------------
+
+Het is eindelijk zover, de nieuwe Datavisualisatie Challenge gaat van start!
+Ready, Set, Go ……
+
+Bundel je verbeeldingskracht en analytisch vermogen om een interactief dashboard
+of visueel beeld samen te stellen waarmee gebruikers de geschiedenis van de
+Olympische Spelen kunnen verkennen, van Athene (1896) tot Rio (2016).
+
+--------------------------------------------------
+DOEL
+--------------------------------------------------
+
+Doel van de challenge:
+- Oefenen en verbeteren van je skills
+- Leren van anderen
+- Inspireren van anderen
+
+Voor wie:
+- Iedereen die dashboards wil bouwen en zich verder wil ontwikkelen
+
+Belangrijk:
+- Meedoen is belangrijker dan winnen
+- Zie het als kans om feedback te krijgen
+- Het hoeft geen fancy of volledig af rapport te zijn
+
+--------------------------------------------------
+OPDRACHT
+--------------------------------------------------
+
+Ontwikkel een interactief dashboard of visuele analyse
+over de geschiedenis van de Olympische Spelen (1896 – 2016).
+
+Gebruik:
+- Creativiteit
+- Analytisch vermogen
+
+--------------------------------------------------
+DATASET
+--------------------------------------------------
+
+Beschikbaar vanaf:
+- 11 mei 2026, 09:30 uur
+
+Locatie:
+- Teams site: Power BI Community
+- Channel: Power BI Datavisualisatie Challenge
+
+Bestanden:
+- Athlete_events
+- Athlete_events_data_dictionary
+- Country_definitions
+- Country_definitions_data_dictionary
+
+Kenmerken:
+- Dataset is al gemodelleerd (geen modellering nodig)
+- Dataset komt van Maven Analytics
+- Gratis beschikbaar
+- Geen extra data toevoegen toegestaan
+
+--------------------------------------------------
+DASHBOARD REQUIREMENTS
+--------------------------------------------------
+
+Periode:
+- 11 mei 2026 t/m 1 juni 2026
+
+Ondersteuning:
+- Teams channel beschikbaar voor vragen (hulplijn)
+- Onderwerpen: Power BI, DAX, data issues, etc.
+
+Ontwerp:
+- Geen verplicht HU design
+- Wees creatief
+
+--------------------------------------------------
+AANMELDEN
+--------------------------------------------------
+
+Registreer via:
+- Excel lijst op Teams (Power BI Community site)
+
+--------------------------------------------------
+INLEVEREN
+--------------------------------------------------
+
+Deadline:
+- 1 juni 2026, 17:00 uur
+
+Stappen:
+1. Ga naar Teams site:
+   Power BI Community → Channel: Datavisualisatie Challenge
+2. Plaats een bericht met:
+   - Screenshot van je dashboard
+3. Publiceer dashboard naar:
+   - Power BI workspace: "Challenge Datavisualisatie"
+4. Vermeld je naam in de dashboardtitel
+
+Optioneel:
+- Lever .pbix bestand aan (voor DAX / techniek)
+
+Let op:
+- Te late inzendingen worden niet beoordeeld
+
+--------------------------------------------------
+BEOORDELING
+--------------------------------------------------
+
+Datum:
+- 2 juni 2026
+
+Tijd:
+- 13:00 – 17:00
+
+Format:
+- Live beoordeling door jury
+- Alle inzendingen worden bekeken
+
+Winnaar:
+- Meeste stemmen van de jury
+- Ontvangt een prijs
+
+--------------------------------------------------
+PLANNING OVERZICHT
+--------------------------------------------------
+
+Start:
+- 11 mei 2026
+
+Duur:
+- 3 weken
+
+Deadline:
+- 1 juni 2026 (17:00)
+
+Eindsessie:
+- 2 juni 2026 (13:00 – 17:00)
+
+--------------------------------------------------
+
+DATAVISUALISATIE CHALLENGE – OLYMPIC GAMES

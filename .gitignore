@@ -1,0 +1,10 @@
+# Ruwe data — al verwerkt naar JSON in data/json/
+data/*.csv
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS-bestanden
+.DS_Store
+Thumbs.db

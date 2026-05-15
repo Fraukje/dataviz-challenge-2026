@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vrouwen in de Olympische Spelen · 1900–2016</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+</head>
+<body>
+
+  <!-- Progress bar -->
+  <div id="progress-bar"></div>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="nav-brand">Vrouwen in de Olympische Spelen</div>
+    <ul class="nav-links">
+      <li><a href="#participation">Deelname</a></li>
+      <li><a href="#sports">Barrières</a></li>
+      <li><a href="#map">Landen</a></li>
+      <li><a href="#athletes">Atleten</a></li>
+      <li><a href="#ai-story">Gebouwd met AI</a></li>
+    </ul>
+  </nav>
+
+  <!-- ── Hero ─────────────────────────────────────────────────────────────── -->
+  <section id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Olympische Spelen &middot; Athene 1896 &ndash; Rio 2016</p>
+      <h1 class="hero-title">De Lange Weg<br>naar Gelijkheid</h1>
+      <p class="hero-subtitle">
+        Van een handvol pioniers in Parijs 1900 tot bijna de helft van alle atleten in Rio 2016 —
+        het verhaal van vrouwen in de Olympische Spelen is er een van doorzettingsvermogen, vooruitgang en kracht.
+      </p>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <span class="stat-value">2.2%</span>
+          <span class="stat-label">vrouwelijke atleten<br>Parijs 1900</span>
+        </div>
+        <div class="hero-stat-arrow">&rarr;</div>
+        <div class="hero-stat">
+          <span class="stat-value">45%</span>
+          <span class="stat-label">vrouwelijke atleten<br>Rio 2016</span>
+        </div>
+      </div>
+      <a href="#participation" class="scroll-cta">
+        <span>Begin het verhaal</span>
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+          <path d="M8 3v10M3 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- ── Section 01: Participation ─────────────────────────────────────────── -->
+  <section id="participation" class="content-section">
+    <div class="section-inner">
+      <header class="section-header">
+        <span class="section-number">01</span>
+        <h2>De Lange Weg</h2>
+        <p class="section-desc">
+          Het aandeel vrouwen bij de Olympische Zomerspelen groeide van 2% in 1900 naar 45% in 2016.
+          De reis werd gekenmerkt door decennia van langzame vooruitgang, onderbroken door doorbraken die
+          het gezicht van de Spelen voorgoed veranderden.
+        </p>
+      </header>
+      <div id="chart-participation" class="chart-box animate-on-scroll"></div>
+    </div>
+  </section>
+
+  <!-- ── Section 02: Sports ────────────────────────────────────────────────── -->
+  <section id="sports" class="content-section alt-bg">
+    <div class="section-inner">
+      <header class="section-header">
+        <span class="section-number">02</span>
+        <h2>Barrières Doorbreken</h2>
+        <p class="section-desc">
+          Sport voor sport veroverden vrouwen hun plek op het Olympische podium.
+          Elke bubbel vertegenwoordigt een sport — gepositioneerd op het jaar dat vrouwen voor het eerst meededen,
+          waarbij de grootte het aantal vrouwelijke atleten in de meest recente Spelen weergeeft
+          en de kleur het percentage vrouwen op dat moment toont.
+        </p>
+      </header>
+      <div id="chart-sports" class="chart-box animate-on-scroll"></div>
+    </div>
+  </section>
+
+  <!-- ── Section 03: Map ───────────────────────────────────────────────────── -->
+  <section id="map" class="content-section">
+    <div class="section-inner">
+      <header class="section-header">
+        <span class="section-number">03</span>
+        <h2>Op de Kaart</h2>
+        <p class="section-desc">
+          Welke landen hebben de meeste vrouwelijke Olympische medailles gewonnen over alle Spelen van 1900 tot 2016?
+          Beweeg over een land om de volledige medailleverdeling te zien.
+        </p>
+      </header>
+      <div id="chart-map" class="chart-box animate-on-scroll"></div>
+    </div>
+  </section>
+
+  <!-- ── Section 04: Athletes ──────────────────────────────────────────────── -->
+  <section id="athletes" class="content-section alt-bg">
+    <div class="section-inner">
+      <header class="section-header">
+        <span class="section-number">04</span>
+        <h2>De Atleten</h2>
+        <p class="section-desc">
+          Naarmate vrouwensport professioneler werd, verschoof het fysieke profiel van atleten.
+          De grafieken hieronder vergelijken de gemiddelde leeftijd en lengte van mannelijke en vrouwelijke
+          Olympische atleten over een periode van 120 jaar.
+        </p>
+      </header>
+      <div class="charts-grid">
+        <div id="chart-age" class="chart-box animate-on-scroll"></div>
+        <div id="chart-height" class="chart-box animate-on-scroll"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Section 05: Built with AI ─────────────────────────────────────────── -->
+  <section id="ai-story" class="content-section ai-section">
+    <div class="section-inner">
+      <header class="section-header">
+        <span class="section-number">05</span>
+        <h2>Gebouwd met AI</h2>
+        <p class="section-desc">
+          Dit dashboard is gebouwd voor de HU Datavisualisatie Challenge 2026 met
+          <strong>GitHub Copilot</strong> als AI-codeerassistent — van een leeg werkgebied tot
+          een gepubliceerd dashboard in een fractie van de gebruikelijke tijd. Zo verliep het.
+        </p>
+      </header>
+
+      <div class="ai-log">
+
+        <div class="ai-step animate-on-scroll">
+          <div class="ai-step-icon">🗂️</div>
+          <div class="ai-step-content">
+            <h3>Fase 1 &mdash; Data-verkenning</h3>
+            <p>
+              Copilot genereerde een Python EDA-script om de datasetstructuur te begrijpen:
+              rijtellingen, null-verdelingen, medailleoverzichten en jaarbereiken — in minuten
+              in plaats van het gebruikelijke uur aan handmatige verkenning.
+            </p>
+            <div class="ai-prompt">
+              <strong>Prompt used:</strong> "Write a Python pandas script to explore an Olympic athletes CSV
+              with columns: ID, Name, Sex, Age, Height, Weight, Team, NOC, Games, Year, Season, City,
+              Sport, Event, Medal. Show null counts, year range, unique sports, and medal breakdown by gender."
+            </div>
+            <span class="ai-result">⏱ ~10 minuten</span>
+          </div>
+        </div>
+
+        <div class="ai-step animate-on-scroll">
+          <div class="ai-step-icon">📊</div>
+          <div class="ai-step-content">
+            <h3>Fase 2 &mdash; Data-voorbereiding</h3>
+            <p>
+              Copilot schreef het volledige voorverwerkingsscript dat 271.116 rijen CSV-data omzet naar
+              vier compacte JSON-bestanden — deelnametrends vrouwen, medailles per land, sporten voor vrouwen
+              en atletiekstatistieken — klaar voor de browser.
+            </p>
+            <div class="ai-prompt">
+              <strong>Prompt used:</strong> "Write a Python script that reads athlete_events.csv and
+              country_definitions.csv, and outputs 4 JSON files: (1) % female athletes per year for
+              Summer Olympics, (2) total female medals by country, (3) first year women competed per
+              sport with % female in latest Games, (4) average age and height by gender per year."
+            </div>
+            <span class="ai-result">⏱ ~20 minuten (inclusief uitvoeren en verifiëren van output)</span>
+          </div>
+        </div>
+
+        <div class="ai-step animate-on-scroll">
+          <div class="ai-step-icon">🎨</div>
+          <div class="ai-step-content">
+            <h3>Fase 3 &mdash; Dashboard Ontwerp &amp; Bouw</h3>
+            <p>
+              Ik beschreef het verhaal en de lay-out die ik voor ogen had — een scrollend narratief over
+              gendergelijkheid in de Olympische Spelen — en Copilot bouwde de volledige HTML-structuur,
+              het CSS-thema en alle vijf Plotly.js-grafiekconfiguraties in één sessie.
+            </p>
+            <div class="ai-prompt">
+              <strong>Prompt used:</strong> "Create a scrollytelling HTML dashboard with a dark navy
+              Olympics theme. Use Plotly.js loaded via CDN. Sections: (1) hero with key stats,
+              (2) line chart of % female athletes per year with milestone annotations,
+              (3) bubble chart of sports opening to women, (4) choropleth map of female medals by country,
+              (5) athlete age and height comparison lines for men vs women."
+            </div>
+            <span class="ai-result">⏱ ~3 uur voor de volledige dashboardbouw</span>
+          </div>
+        </div>
+
+        <div class="ai-step animate-on-scroll">
+          <div class="ai-step-icon">⚡</div>
+          <div class="ai-step-content">
+            <h3>Het Resultaat</h3>
+            <p>
+              Totale tijd van leeg werkgebied tot gepubliceerd dashboard: <strong>ongeveer 6 uur</strong>.
+              Zonder AI-hulp zou hetzelfde resultaat waarschijnlijk 2–3 volledige werkdagen kosten.
+            </p>
+            <p>
+              De AI genereerde niet alleen standaardcode — het nam ontwerpbeslissingen, behandelde randgevallen
+              in dataverwerking, schreef productieklare grafiekconfiguraties en hield de code overal schoon
+              en consistent. De commitgeschiedenis op GitHub vertelt het volledige snelheidsverhaal.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ────────────────────────────────────────────────────────────── -->
+  <footer>
+    <div class="footer-inner">
+      <p>
+        Data: <a href="https://www.mavenanalytics.io" target="_blank" rel="noopener noreferrer">Maven Analytics</a>
+        &middot; Olympische Spelen 1896–2016
+      </p>
+      <p>
+        Gebouwd door <strong>Fraukje Coopmans</strong> met <strong>GitHub Copilot</strong>
+        &middot; HU Datavisualisatie Challenge 2026
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/charts.js"></script>
+</body>
+</html>

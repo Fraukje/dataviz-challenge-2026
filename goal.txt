@@ -1,0 +1,9 @@
+Ik wil meedoen aan de HU interne data visualisatie challenge, waarbij ik de kracht van AI centraal wil stellen. 
+Ik wil NIET POWER BI GEBRUIKEN, tenzij dat de beste optie is. Alle verwijzingen vanuit de Challenge naar Power BI mogen genegeerd worden. AI mag de tooling kiezen. 
+
+Mijn doel voor het meedoen aan deze challenge is tweeledig. 
+Enerzijds wil ik laten zien hoe je met behulp van AI in korte tijd visueel aantrekkelijke en goed doordachte dashboards kunt ontwikkelen. 
+Anderzijds wil ik demonstreren hoe snel dit proces kan verlopen wanneer je AI slim inzet als hulpmiddel.
+Door deze combinatie hoop ik niet alleen de kwaliteit van AI-ondersteunde data visualisatie zichtbaar te maken, 
+maar ook het efficiëntievoordeel dat hiermee te behalen is. Daarmee wil ik inspireren en laten zien welke kansen er 
+liggen voor het inzetten van AI binnen ons werkveld.
