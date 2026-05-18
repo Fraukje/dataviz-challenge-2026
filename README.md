@@ -4,7 +4,7 @@ An interactive data visualization dashboard exploring **gender equality in the O
 
 The central theme of this project is demonstrating how AI can be used to produce a high-quality, visually compelling dashboard in a fraction of the time it would normally take.
 
-**Live dashboard:** [fraukje.github.io/olympics-dataviz-challenge](https://fraukje.github.io/olympics-dataviz-challenge)
+**Live dashboard:** [fraukje.github.io/olympics-dataviz-challenge]([https://fraukje.github.io/olympics-dataviz-challenge](https://fraukje.github.io/dataviz-challenge-2026/))
 
 ---
 
